@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SupdateXJavafx">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../all API java/modcraft/SupdateXJavafx.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
