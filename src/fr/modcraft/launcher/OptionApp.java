@@ -88,7 +88,7 @@ public class OptionApp implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        ramChoice.getItems().addAll("1Go", "2Go", "3Go", "4Go", "5Go", "6Go", "7Go", "8Go");
+        ramChoice.getItems().addAll("1Go", "2Go", "3Go", "4Go", "5Go", "6Go", "7Go", "8Go", "9Go", "10Go");
         ramChoice.setValue(ReadLauncherInfos.getRAM()+"Go");
         savePassword.setSelected(ReadLauncherInfos.getSavePassword());
         if (savePassword.isSelected())

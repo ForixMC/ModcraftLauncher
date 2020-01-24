@@ -18,12 +18,12 @@
             <Image url="/resources/background2.jpg" />
          </image>
       </ImageView>
-      <TextField fx:id="usernameField" layoutX="391.0" layoutY="225.0" prefHeight="40.0" prefWidth="280.0" promptText="Nom d'utilisateur">
+      <TextField fx:id="usernameField" layoutX="391.0" layoutY="225.0" onAction="#logButton" prefHeight="40.0" prefWidth="280.0" promptText="Nom d'utilisateur">
          <font>
             <Font size="15.0" />
          </font>
       </TextField>
-      <PasswordField fx:id="passwordField" layoutX="391.0" layoutY="284.0" prefHeight="40.0" prefWidth="280.0" promptText="Mot de passe">
+      <PasswordField fx:id="passwordField" layoutX="391.0" layoutY="284.0" onAction="#logButton" prefHeight="40.0" prefWidth="280.0" promptText="Mot de passe">
          <font>
             <Font size="15.0" />
          </font>
